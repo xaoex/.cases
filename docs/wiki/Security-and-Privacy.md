@@ -92,8 +92,9 @@ Extra protection for:
 **These should NOT be in the repository unless absolutely necessary and with explicit safeguards.**
 
 #### Data Breach Notification (Art. 33-34)
-- Notify supervisory authority within 72 hours
-- Notify affected individuals if high risk
+- **Supervisory Authority:** Notify within 72 hours of becoming aware of the breach
+- **Affected Individuals:** Notify without undue delay if high risk to their rights and freedoms
+- Document all breaches, even if notification not required
 
 #### Penalties
 - Up to €20 million or 4% of global annual turnover
@@ -135,7 +136,10 @@ If handling health information:
 
 **Dataskyddslagen (2018:218)**
 
-Implements GDPR in Sweden with additional provisions:
+Implements GDPR in Sweden with additional provisions including:
+- Specific rules for processing personal data in employment relationships
+- Additional provisions for processing criminal conviction data
+- Swedish supervisory authority procedures
 
 #### Key Sections
 - **3 kap.** - Processing for legal claims (exemptions)
@@ -285,12 +289,12 @@ Different jurisdictions have different requirements:
 
 #### Legal Requirements
 
-| Jurisdiction | Typical Retention Period |
-|--------------|-------------------------|
-| EU/GDPR | 6-10 years (varies by member state) |
-| US Federal | 7 years (varies by case type) |
-| US State | Varies (check specific state) |
-| Sweden | 7-10 years (varies by case type) |
+| Jurisdiction | Typical Retention Period | Notes |
+|--------------|-------------------------|-------|
+| EU/GDPR | 6-7 years for civil cases; 10+ years for criminal cases | GDPR Art. 89; varies by member state |
+| US Federal | 7 years for most matters; 10+ years for criminal cases | Varies by case type and applicable rules |
+| US State | 3-10 years (check specific state requirements) | State-dependent; check local rules |
+| Sweden | 7 years for civil; 10 years for criminal cases | Per Swedish Archive Act and legal requirements |
 
 #### Best Practices
 

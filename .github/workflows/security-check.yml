@@ -12,7 +12,7 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       
     - name: Check for sensitive data patterns
       run: |
@@ -85,10 +85,10 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
       with:
         node-version: '20'
         
@@ -97,7 +97,17 @@ jobs:
       
     - name: Lint markdown files
       run: |
-        markdownlint '**/*.md' --ignore node_modules || true
+        # Lint markdown files with specific ignores
+        markdownlint '**/*.md' \
+          --ignore node_modules \
+          --ignore LICENSE \
+          --ignore '.github/**' \
+          --config .markdownlint.json 2>&1 | tee lint-results.txt || true
+        
+        # Check if there are critical errors (optional: make this fail on error)
+        if grep -i "error" lint-results.txt > /dev/null 2>&1; then
+          echo "⚠️ Markdown linting found issues (non-blocking)"
+        fi
         echo "✅ Markdown linting complete"
 
   link-checker:
@@ -105,7 +115,7 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       
     - name: Check internal links
       run: |
