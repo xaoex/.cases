@@ -2,7 +2,11 @@
 
 ## Total Damages Summary
 
-This document provides a comprehensive assessment of all damages suffered by Oktay Oak Bahceci resulting from work-related injury and subsequent inadequate medical care.
+This document provides a comprehensive assessment of all damages suffered by Oktay Oak Bahceci resulting from:
+1. Swedish healthcare system failure to diagnose ADHD (2010)
+2. Medical treatment complications in United States (2016-2017)
+3. Work-related injury and exhaustion syndrome (2018-present)
+4. Inadequate medical care and discrimination (2018-present)
 
 **IMPORTANT DISCLAIMER:** Exact monetary amounts require calculation based on actual employment records, medical bills, and expert economic analysis. This document provides framework and categories for damages calculation. Work with Attorney Erik Nydert and economic experts to determine specific amounts.
 
@@ -10,7 +14,50 @@ This document provides a comprehensive assessment of all damages suffered by Okt
 
 ## I. ECONOMIC DAMAGES (Quantifiable Financial Losses)
 
-### A. Lost Wages - Past (2018-Present)
+### A. Lost Career Opportunity - Apple Inc. (2016-2017)
+
+**Loss of Apple Siri Division Internship:**
+
+Due to adverse reaction to medical marijuana and ADHD medication combination, plaintiff lost prestigious position:
+
+**Direct Loss:**
+- Internship salary for remaining period: USD [Amount]
+- Benefits during internship: USD [Amount]
+
+**Career Impact Loss:**
+
+Loss of Apple internship had significant career implications:
+
+1. **Lost Full-Time Employment Opportunity:**
+   - High probability of conversion to full-time employment at Apple
+   - Apple entry-level engineer salary (2017): USD $100,000-$150,000+
+   - Lost opportunity value: USD [Amount]
+
+2. **Resume and Credential Damage:**
+   - "Apple Inc." on resume has significant value in tech industry
+   - Loss of prestigious credential impacts future opportunities
+   - Estimated impact on lifetime earnings: [To be calculated by vocational expert]
+
+3. **Professional Network Loss:**
+   - Loss of Apple professional connections
+   - Loss of industry contacts at top-tier company
+   - Value: Difficult to quantify but significant
+
+4. **Career Trajectory Disruption:**
+   - Forced to return to Sweden rather than continuing US career
+   - Interruption set back career development
+   - Gap in employment history
+
+**ESTIMATED APPLE OPPORTUNITY LOSS: USD [TO BE CALCULATED]**
+
+**Note:** This loss is directly attributable to:
+- Swedish healthcare's failure to diagnose ADHD in 2010 (leaving patient unfamiliar with ADHD medication)
+- Inadequate medical guidance on combining treatments
+- Patient's vulnerability due to years of untreated ADHD
+
+---
+
+### B. Lost Wages - Past (2018-Present)
 
 **Period:** September 18, 2018 - December 11, 2024 (approximately 6.25 years calculated so far)
 
@@ -117,11 +164,46 @@ Plaintiff has lost 100% of earning capacity permanently.
 
 ---
 
-### D. Medical Expenses - Past (2018-Present)
+### D. Medical Expenses - Past (2010-Present)
+
+**Timeline of Medical Expenses:**
+
+**1. 2010 Swedish Healthcare Visit (ADHD Diagnosis Denied)**
+- Initial healthcare consultation: SEK [Amount]
+- ENT specialist visit (improper referral): SEK [Amount]
+- Lost opportunity for proper treatment: Incalculable
+- **2010 Medical Costs:** SEK [Amount]
+
+**2. 2016-2017 USA Medical Treatment**
+
+**Shoulder Pain Treatment:**
+- Medical consultations for chronic shoulder pain: USD [Amount]
+- Medical marijuana prescription/evaluation: USD [Amount]
+- Medical marijuana costs: USD [Amount per month] × [months]
+- **Shoulder treatment total:** USD [Amount]
+
+**ADHD Diagnosis and Treatment (USA):**
+- Psychiatric evaluation for ADHD: USD [Amount]
+- ADHD medication prescription: USD [Amount]
+- ADHD medication costs: USD [Amount per month] × [months]
+- **ADHD treatment total:** USD [Amount]
+
+**Treatment for Adverse Reaction ("Cloudy Head"):**
+- Emergency or urgent care visits: USD [Amount]
+- Additional psychiatric consultations: USD [Amount]
+- Treatment for underlying depression: USD [Amount]
+- **Adverse reaction treatment:** USD [Amount]
+
+**Travel and Related Expenses (USA):**
+- Medical travel costs: USD [Amount]
+- Lost wages during sick leave from Apple: USD [Amount]
+- **USA medical-related costs:** USD [Amount]
+
+**3. 2018-Present Swedish Medical Expenses**
 
 **Categories of Medical Expenses:**
 
-**1. Psychiatric Hospital Stays**
+**A. Psychiatric Hospital Stays**
 - Multiple involuntary psychiatric holds
 - Duration: Weeks to months at a time
 - Frequency: Multiple times over 8 years
@@ -129,7 +211,7 @@ Plaintiff has lost 100% of earning capacity permanently.
 - **Number of hospitalizations:** [To be counted from records]
 - **Total psychiatric hospitalization costs:** SEK [Amount]
 
-**2. Outpatient Psychiatric Treatment**
+**B. Outpatient Psychiatric Treatment**
 - Psychiatric consultations
 - Therapy sessions
 - Crisis interventions
@@ -137,17 +219,17 @@ Plaintiff has lost 100% of earning capacity permanently.
 - **Years of treatment:** 8 years
 - **Total outpatient psychiatric:** SEK [Amount]
 
-**3. Medications**
+**C. Medications**
 - Antidepressants
 - Antipsychotics
 - Anxiety medications
-- ADHD medications (when provided)
+- ADHD medications (when provided - often denied)
 - Other medications for physical symptoms
 - **Estimated monthly medication costs:** SEK [Amount]
 - **Months of treatment:** 96 months (8 years)
 - **Total medication costs:** SEK [Amount]
 
-**4. Physical Health Treatment**
+**D. Physical Health Treatment**
 - Treatment for migraines
 - Cardiovascular care (hypertension, tachycardia)
 - Treatment for chronic fatigue

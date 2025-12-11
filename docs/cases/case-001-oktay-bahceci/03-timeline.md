@@ -1,12 +1,124 @@
 # Timeline Documentation: Oktay Oak Bahceci Case
 
-## Complete Chronological Timeline (2017-2025)
+## Complete Chronological Timeline (2010-2025)
 
-This timeline documents the 8-year progression of work-related illness, psychiatric treatment, and legal proceedings.
+This timeline documents the full 15-year progression including early ADHD diagnosis attempts, work-related illness, psychiatric treatment, and legal proceedings.
 
 ---
 
-## Phase 1: Work-Related Stress and Onset (2017-2018)
+## Phase 0: Early Medical History and ADHD Diagnosis Attempts (2010-2016)
+
+### 2010: ADHD Diagnosis Attempt in Sweden
+**CRITICAL INCIDENT: Misdiagnosis and Denial of Proper Evaluation**
+
+**Event:** Patient presented to Swedish healthcare seeking ADHD diagnosis and full investigation
+
+**Patient's Self-Assessment:**
+- Patient was certain ADHD was the underlying condition
+- Specifically requested comprehensive ADHD evaluation
+- Demonstrated insight into own condition
+
+**Healthcare Response:**
+- Patient was **NOT** referred to psychiatric/neurological evaluation
+- Instead, incorrectly referred to Ears, Nose & Throat (ENT) specialist
+- Request for ADHD investigation was ignored/dismissed
+- No proper diagnostic workup performed
+
+**Impact:**
+- ADHD remained undiagnosed for additional 8+ years
+- No access to appropriate ADHD treatment/medication
+- Untreated ADHD likely contributed to workplace difficulties
+- Patient's concerns dismissed by Swedish healthcare system
+- Established pattern of healthcare system failing to address psychiatric needs
+
+**Long-term Consequences:**
+- Delayed diagnosis contributed to work-related stress
+- Lack of ADHD management made toxic work environments more difficult
+- May have prevented or mitigated later breakdown if properly treated
+- Demonstrates systemic failure in Swedish psychiatric care
+
+**Evidence to Collect:**
+- [ ] 2010 healthcare visit records
+- [ ] ENT referral documentation
+- [ ] Medical records showing request for ADHD evaluation
+- [ ] Timeline of subsequent untreated symptoms
+
+**Related GitHub Issues to Create:**
+- Incident Report: 2010 Swedish Healthcare Denial of ADHD Evaluation
+- Incident Report: Improper ENT Referral Instead of Psychiatric Evaluation
+- Timeline Entry: 2010 missed ADHD diagnosis opportunity
+- Damages Claim: Years of untreated ADHD contributing to workplace difficulties
+
+---
+
+### 2016-2017 (USA): Medical Marijuana and ADHD Diagnosis Complications
+**CRITICAL INCIDENT: Adverse Reaction and Internship Interruption**
+
+**Context:**
+- Patient relocated to United States
+- Position: Internship/Co-op at **Apple Inc., Siri Division**
+- Seeking treatment for chronic shoulder pain
+- Also seeking proper ADHD diagnosis after Swedish healthcare denial
+
+**Medical Treatment Received:**
+1. **ADHD Diagnosis:** Finally obtained proper ADHD diagnosis in United States (after Swedish healthcare denied evaluation in 2010)
+2. **Medical Marijuana:** Prescribed/recommended for:
+   - Chronic shoulder pain
+   - ADHD symptoms
+
+**Patient's Unfamiliarity:**
+- Patient was **unfamiliar with ADHD medication** (first time diagnosis/treatment)
+- Patient was **unfamiliar with medical marijuana** (new treatment modality)
+- Insufficient guidance on potential interactions or side effects
+
+**Adverse Reaction - "Cloudy Head" Symptoms:**
+The combination of medical marijuana and ADHD treatment resulted in:
+- "Cloudy head" cognitive symptoms
+- Mental fog and confusion
+- Difficulty processing information
+- Impaired cognitive function
+
+**Compounding Factors:**
+- Patient received bad news (nature to be documented)
+- Underlying depression present
+- Stress from new position at major tech company
+- Multiple new medications without proper monitoring
+
+**Immediate Consequences:**
+- Patient took sick leave from Apple Siri Division internship
+- Leave lasted several weeks
+- Patient **did not continue/complete** the internship
+- Loss of prestigious career opportunity at Apple
+
+**Long-term Impact:**
+- Career trajectory disrupted
+- Loss of Apple employment opportunity
+- Early warning signs of medication sensitivity
+- Demonstrated vulnerability to psychiatric complications
+- Foreshadowed later severe psychiatric episodes
+
+**Evidence to Collect:**
+- [ ] Apple Inc. employment/internship records
+- [ ] Sick leave documentation from Apple
+- [ ] Medical marijuana prescription records (USA)
+- [ ] ADHD diagnosis documentation (USA)
+- [ ] Medical records showing "cloudy head" symptoms
+- [ ] Records of underlying depression diagnosis
+- [ ] Documentation of "bad news" received during this period
+- [ ] Correspondence regarding internship termination
+
+**Related GitHub Issues to Create:**
+- Incident Report: Adverse Reaction to Medical Marijuana/ADHD Medication Combination
+- Incident Report: "Cloudy Head" Cognitive Symptoms
+- Incident Report: Loss of Apple Siri Division Internship
+- Timeline Entry: 2016-2017 USA medical treatment complications
+- Damages Claim: Lost Apple career opportunity and earning potential
+- Damages Claim: Early psychiatric complications from medication
+- Evidence Tracking: USA medical records (marijuana, ADHD, shoulder treatment)
+
+---
+
+## Phase 1: Return to Sweden and Work-Related Stress (2017-2018)
 
 ### 2017: Pre-Diagnosis Period
 **Environment: Tictail AB and Lifesum AB**

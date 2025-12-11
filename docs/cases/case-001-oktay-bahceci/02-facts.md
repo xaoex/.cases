@@ -2,7 +2,7 @@
 
 ## Case Summary
 
-This case involves an eight-year period of severe work-related illness, psychiatric treatment, and ongoing disability resulting from toxic work environments at two Swedish technology companies. The plaintiff, Oktay Oak Bahceci, seeks full compensation for work injury, disability benefits, and damages for medical malpractice, discrimination, and loss of earning capacity.
+This case involves a fifteen-year medical odyssey beginning with Swedish healthcare's failure to properly diagnose ADHD in 2010, followed by complications from medical treatment in the United States, culminating in an eight-year period of severe work-related illness, psychiatric treatment, and ongoing disability. The plaintiff, Oktay Oak Bahceci, seeks full compensation for work injury, disability benefits, and damages for medical malpractice, discrimination, and loss of earning capacity.
 
 ---
 
@@ -24,9 +24,138 @@ This case involves an eight-year period of severe work-related illness, psychiat
 - Skill Level: High technical proficiency
 - Work Ethic: Strong dedication (evidenced by working evenings/weekends)
 
+**Notable Career Achievements:**
+- Secured internship/co-op position at **Apple Inc., Siri Division** (2016-2017)
+- Demonstrated ability to work at top-tier technology companies
+- Career interrupted by medical complications
+
 ---
 
-## II. WORK-RELATED INJURY AND ILLNESS ONSET (2017-2018)
+## II. EARLY MEDICAL HISTORY: SWEDISH HEALTHCARE SYSTEM FAILURE (2010)
+
+### A. 2010 ADHD Diagnosis Attempt - Denial of Proper Care
+
+**Patient Initiative:**
+In 2010, Mr. Bahceci proactively sought medical attention from Swedish healthcare, specifically requesting:
+- Full investigation for ADHD (Attention Deficit Hyperactivity Disorder)
+- Comprehensive psychiatric evaluation
+- Proper diagnostic workup
+
+**Patient's Self-Awareness:**
+- Patient was **certain** that ADHD was the underlying condition
+- Demonstrated significant insight into own symptoms
+- Actively sought appropriate diagnosis and treatment
+- Requested complete evaluation
+
+**Swedish Healthcare System Response:**
+
+The Swedish healthcare system's response to this request was **grossly inadequate and negligent**:
+
+1. **Improper Referral:** Instead of referring to psychiatry or neurology, patient was sent to **Ears, Nose & Throat (ENT) specialist**
+2. **Dismissal of Concerns:** Patient's explicit request for ADHD evaluation was **ignored**
+3. **No Diagnostic Workup:** No psychiatric assessment performed
+4. **No Follow-up:** System provided no appropriate pathway to diagnosis
+
+**Consequences of 2010 Healthcare Failure:**
+
+This critical failure by Swedish healthcare in 2010 had cascading consequences:
+
+1. **Delayed Diagnosis:** ADHD remained undiagnosed for minimum of 6-7 years (until USA diagnosis)
+2. **No Treatment:** Patient had no access to appropriate ADHD medication or therapy
+3. **Exacerbation of Symptoms:** Untreated ADHD likely contributed to difficulties in subsequent employment
+4. **Workplace Vulnerability:** Made patient more vulnerable to toxic work environments
+5. **Career Impact:** Untreated ADHD may have contributed to later workplace stress and breakdown
+6. **Pattern Established:** First instance of Swedish healthcare system failing plaintiff's psychiatric needs
+
+**Significance:**
+- Demonstrates systemic failure in Swedish psychiatric care
+- Establishes pattern of dismissing plaintiff's psychiatric concerns
+- Shows plaintiff actively sought help but was denied
+- Untreated ADHD contributed to subsequent work-related illness
+- If properly diagnosed and treated in 2010, later breakdown may have been prevented or mitigated
+
+---
+
+## III. UNITED STATES MEDICAL TREATMENT AND COMPLICATIONS (2016-2017)
+
+### A. Apple Inc. Internship and Medical Treatment
+
+**Employment:**
+- Position: Internship/Co-op at Apple Inc., Siri Division
+- Location: United States
+- Timeframe: 2016-2017
+- Significance: Prestigious position at major technology company
+
+**Medical Issues Addressed:**
+1. **Chronic Shoulder Pain:** Long-standing physical condition requiring treatment
+2. **ADHD:** Finally obtained proper diagnosis (after Swedish healthcare denied evaluation in 2010)
+
+### B. Medical Marijuana and ADHD Medication - Adverse Reaction
+
+**Treatment Prescribed/Recommended:**
+1. **Medical Marijuana** - For chronic shoulder pain and ADHD symptoms
+2. **ADHD Medication** - First time receiving proper ADHD treatment
+
+**Critical Context - Patient Unfamiliarity:**
+- Patient was **unfamiliar with ADHD medication** (first diagnosis/treatment after years of denial)
+- Patient was **unfamiliar with medical marijuana** (new treatment modality)
+- Dual unfamiliarity created dangerous situation
+- Insufficient medical guidance on potential interactions
+- No adequate monitoring of combined effects
+
+**Adverse Reaction - "Cloudy Head" Symptoms:**
+
+The combination of medical marijuana and ADHD medication resulted in severe cognitive symptoms:
+- **"Cloudy head"** - severe mental fog
+- Cognitive confusion and disorientation
+- Difficulty processing information and thoughts
+- Impaired mental clarity
+- Inability to function normally
+
+**Compounding Factors:**
+
+The adverse reaction was worsened by:
+1. **Bad News:** Patient received distressing news (nature to be documented)
+2. **Underlying Depression:** Pre-existing or emerging depressive symptoms
+3. **Work Stress:** Pressure of position at major tech company
+4. **Multiple New Medications:** No proper monitoring or titration
+5. **Lack of Medical Supervision:** Insufficient guidance on managing multiple new treatments
+
+### C. Loss of Apple Internship
+
+**Immediate Consequences:**
+
+Due to the adverse reaction and resulting symptoms, plaintiff:
+- Took **sick leave** from Apple Siri Division for **several weeks**
+- Was unable to continue work
+- **Did not complete** the internship
+- Lost the position entirely
+
+**Career Impact:**
+- Loss of prestigious career opportunity at one of world's top tech companies
+- Interruption of career trajectory at critical early stage
+- Loss of Apple experience on resume
+- Potential loss of full-time employment opportunity
+- Loss of professional network at Apple
+- Reduction in future earning potential
+
+**Medical Significance:**
+- Early warning sign of medication sensitivity and psychiatric vulnerability
+- Demonstrated inability to tolerate certain psychiatric medications
+- Foreshadowed later severe psychiatric complications
+- Established pattern of adverse reactions to psychiatric treatment
+- Clear evidence that proper medication management is critical for plaintiff
+
+**Connection to Later Events:**
+- This 2016-2017 incident demonstrated plaintiff's vulnerability to psychiatric complications
+- Showed need for careful medical management
+- Proved that untreated or improperly treated psychiatric conditions would impact career
+- Established that plaintiff suffers real, severe consequences from psychiatric issues
+- Demonstrated that proper ADHD treatment (denied in Sweden 2010) was essential
+
+---
+
+## IV. RETURN TO SWEDEN AND WORK-RELATED INJURY (2017-2018)
 
 ### A. Toxic Work Environments
 
