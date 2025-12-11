@@ -335,14 +335,16 @@ You've successfully created all issues when:
 
 ## Resources
 
-- **Specification Documents**:
+- **Specification Documents** (Available Now):
   - COMPREHENSIVE_ISSUES_TO_CREATE.md (Issues #1-30)
   - COMPREHENSIVE_ISSUES_PART_2.md (Issues #31-60)
-  - COMPREHENSIVE_ISSUES_PART_3.md (Issues #61-100) - To be created
-  - COMPREHENSIVE_ISSUES_PART_4.md (Issues #101-180) - To be created
-  - COMPREHENSIVE_ISSUES_PART_5.md (Issues #181-250) - To be created
 
-- **Planning Documents**:
+- **Specification Documents** (Planned for Week 2):
+  - COMPREHENSIVE_ISSUES_PART_3.md (Issues #61-100)
+  - COMPREHENSIVE_ISSUES_PART_4.md (Issues #101-180)
+  - COMPREHENSIVE_ISSUES_PART_5.md (Issues #181-250)
+
+- **Planning Documents** (Available Now):
   - MASTER_PLAN.md - Overall strategy
   - ISSUES_MASTER_LIST.md - Category overview
 

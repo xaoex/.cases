@@ -49,10 +49,10 @@ This repository has been structured for **complete maximization** through compre
 
 ### For Legal Team
 
-1. Review case documentation in `/docs/cases/` *(from PR #2)*
-2. Check evidence inventory *(to be organized)*
-3. Review timeline and deadlines *(to be created)*
-4. Access legal references in [Wiki](https://github.com/xaoex/.cases/wiki) *(to be set up)*
+1. Review case documentation in `/docs/cases/` *(see comprehensive documentation PR)*
+2. Check evidence inventory *(to be organized per specifications)*
+3. Review timeline and deadlines *(specifications in issue #43)*
+4. Access legal references in [Wiki](https://github.com/xaoex/.cases/wiki) *(specifications in issues #81-100)*
 
 ---
 
@@ -69,13 +69,13 @@ This repository has been structured for **complete maximization** through compre
 
 ### Issue Specifications (Detailed)
 
-| Document | Issues Covered | Status |
-|----------|----------------|--------|
-| [COMPREHENSIVE_ISSUES_TO_CREATE.md](./COMPREHENSIVE_ISSUES_TO_CREATE.md) | #1-30 (Foundation & Automation start) | ✅ Complete |
-| [COMPREHENSIVE_ISSUES_PART_2.md](./COMPREHENSIVE_ISSUES_PART_2.md) | #31-60 (Automation & Projects) | ✅ Complete |
-| COMPREHENSIVE_ISSUES_PART_3.md | #61-100 (Documentation & Wiki) | 📋 Planned |
-| COMPREHENSIVE_ISSUES_PART_4.md | #101-180 (Case-specific & Evidence) | 📋 Planned |
-| COMPREHENSIVE_ISSUES_PART_5.md | #181-250 (Legal, Integration, Maintenance) | 📋 Planned |
+| Document | Issues Covered | Status | Expected |
+|----------|----------------|--------|----------|
+| [COMPREHENSIVE_ISSUES_TO_CREATE.md](./COMPREHENSIVE_ISSUES_TO_CREATE.md) | #1-30 (Foundation & Automation start) | ✅ Complete | Available now |
+| [COMPREHENSIVE_ISSUES_PART_2.md](./COMPREHENSIVE_ISSUES_PART_2.md) | #31-60 (Automation & Projects) | ✅ Complete | Available now |
+| COMPREHENSIVE_ISSUES_PART_3.md | #61-100 (Documentation & Wiki) | 📋 Planned | Week 2 |
+| COMPREHENSIVE_ISSUES_PART_4.md | #101-180 (Case-specific & Evidence) | 📋 Planned | Week 2 |
+| COMPREHENSIVE_ISSUES_PART_5.md | #181-250 (Legal, Integration, Maintenance) | 📋 Planned | Week 2 |
 
 ---
 
