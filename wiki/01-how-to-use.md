@@ -365,4 +365,4 @@ Once litigation is anticipated:
 
 ---
 
-**Last Updated:** [Date]
+**Last Updated:** 2024-12-11
