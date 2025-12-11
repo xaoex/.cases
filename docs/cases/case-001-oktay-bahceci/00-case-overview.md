@@ -9,16 +9,29 @@
 
 ## Executive Summary
 
-This case involves claims related to medical treatment, disability accommodations, and potential discrimination experienced by Oktay Oak Bahceci over approximately 7 years. The case centers on:
+This case involves a catastrophic, work-related illness spanning 8+ years, resulting in complete and permanent disability. The case centers on:
 
-1. **Medical Treatment Issues**: Concerns regarding psychiatric treatment, medication management (specifically ADHD medication), and medical record documentation
-2. **Disability and Cognitive Impact**: Documented cognitive impairment affecting ability to work and function
-3. **Discrimination Claims**: Potential discrimination and inadequate accommodation in medical and workplace settings
-4. **Benefits Claims**: Seeking full disability benefits and compensation for damages
+1. **Work-Related Injury**: Exhaustion Syndrome (Utmattningssyndrom) formally diagnosed September 18, 2018, caused by toxic work environments at Tictail AB and Lifesum AB
+2. **Severe Psychiatric Complications**: Manic psychotic episode (January 2019) followed by 8 years of recurring involuntary psychiatric hospitalizations lasting weeks to months at a time
+3. **Permanent Cognitive Disability**: Complete loss of ability to focus and concentrate, rendering plaintiff unable to work
+4. **Systematic Medical Care Failures**: 
+   - Persistent denial of necessary ADHD medication
+   - Documented inaccuracies in medical records ("they lie in my medical journal over and over again")
+   - Inadequate treatment over 8-year period
+5. **Potential Discrimination**: Concerns regarding racial/ethnic bias in treatment decisions and care quality
+6. **Eight Years of Complete Disability**: Continuous sick leave since September 2018, total loss of earning capacity
+7. **Complex Legal Battle**: Ongoing conflict with Swedish state authorities for work injury compensation
 
-**Current Status:** Gathering documentation and evidence. Attorney consultation scheduled/ongoing with Erik Nydert.
+**Severity:** Plaintiff describes condition as "severely handicapped by this...loss of cognition completely and can't focus"
 
-**Next Steps:** Complete evidence collection, document all incidents chronologically, calculate total damages, review with legal counsel.
+**Current Status:** Comprehensive documentation phase. Working with Attorney Erik Nydert to pursue maximum compensation including "FULL COMPLETE benefits + everything from all of them."
+
+**Key Documents Created:**
+- Detailed timeline (03-timeline.md)
+- Complete statement of facts (02-facts.md)  
+- Comprehensive damages assessment (05-damages.md)
+
+**Next Steps:** Create individual GitHub Issues for each incident, collect all medical records, calculate specific damages with expert assistance, prepare for litigation.
 
 ---
 
@@ -90,14 +103,17 @@ This case involves claims related to medical treatment, disability accommodation
 ## Key Dates
 
 **Critical Timeline Points:**
-- **Onset of Issues:** Approximately 7 years ago (circa 2017-2018)
-- **Initial Stress/Burnout:** [Specific date to be documented]
-- **First Psychiatric Hold:** [Specific date to be documented]
-- **ADHD Medication Issues Begin:** [Specific date to be documented]
-- **Medical Marijuana Prescription (USA):** [Date to be documented - for chronic shoulder pain]
-- **Statute of Limitations:** [To be determined with attorney based on jurisdiction and claim type]
+- **2017-2018:** Toxic work environment at Tictail AB and Lifesum AB - high stress, excessive workload, bullying, micromanagement
+- **September 18, 2018:** **PRIMARY DIAGNOSIS** - Exhaustion Syndrome (Utmattningssyndrom) formally diagnosed, recognized as Work Injury (Arbetsskada)
+- **September 2018:** Beginning of sick leave (ongoing 8+ years continuously)
+- **January 2019:** **CRITICAL INCIDENT** - Manic psychotic episode (F29 diagnosis), first involuntary psychiatric hold
+- **2019-Present:** Pattern of multiple involuntary psychiatric holds in closed wards, lasting weeks to months at a time
+- **2018-Present:** Ongoing battle for work injury compensation and full disability benefits
+- **Present Status:** Complete cognitive impairment, unable to work, seeking "FULL COMPLETE benefits + everything"
 
-**Documentation Period:** Past 7 years of psychiatric treatment, medication management issues, and related impacts
+**Documentation Period:** 8+ years of continuous disability, psychiatric treatment, and legal proceedings
+
+**Statute of Limitations:** [To be determined with attorney - URGENT: some claims may be time-barred]
 
 ---
 
