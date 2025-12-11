@@ -1,0 +1,130 @@
+name: Security Check
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Check for sensitive data patterns
+      run: |
+        echo "🔍 Scanning for potential sensitive data..."
+        
+        # Check for email addresses (allow example.com and placeholder patterns)
+        if grep -rE '\b[A-Za-z0-9._%+-]+@(?!example\.com)[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b' cases/ 2>/dev/null | grep -v '\[.*REDACTED.*\]'; then
+          echo "⚠️ Warning: Potential real email addresses found in cases/"
+          echo "Please anonymize all email addresses"
+          exit 1
+        fi
+        
+        # Check for phone numbers
+        if grep -rE '\b[0-9]{3}[-.]?[0-9]{3}[-.]?[0-9]{4}\b|\b\+?[0-9]{1,3}[-.\s]?[0-9]{2,4}[-.\s]?[0-9]{2,4}[-.\s]?[0-9]{2,4}\b' cases/ 2>/dev/null | grep -v '\[.*REDACTED.*\]'; then
+          echo "⚠️ Warning: Potential phone numbers found in cases/"
+          echo "Please anonymize all phone numbers"
+          exit 1
+        fi
+        
+        # Check for SSN patterns
+        if grep -rE '\b[0-9]{3}-[0-9]{2}-[0-9]{4}\b' cases/ 2>/dev/null | grep -v '\[.*REDACTED.*\]'; then
+          echo "⚠️ Warning: Potential SSN patterns found in cases/"
+          echo "Please anonymize all identification numbers"
+          exit 1
+        fi
+        
+        # Check for credit card patterns
+        if grep -rE '\b[0-9]{4}[-\s]?[0-9]{4}[-\s]?[0-9]{4}[-\s]?[0-9]{4}\b' cases/ 2>/dev/null | grep -v '\[.*REDACTED.*\]' | grep -v 'CASE-'; then
+          echo "⚠️ Warning: Potential credit card numbers found in cases/"
+          echo "Please remove all financial account numbers"
+          exit 1
+        fi
+        
+        echo "✅ No obvious sensitive data patterns detected"
+        echo "Note: This is a basic check. Always review changes manually!"
+        
+    - name: Check for common sensitive files
+      run: |
+        echo "🔍 Checking for sensitive file types..."
+        
+        if find . -name "*.confidential" -o -name "*.private" -o -name "*_CONFIDENTIAL.*" -o -name "*_PRIVATE.*" | grep -v '.git'; then
+          echo "⚠️ Warning: Sensitive file patterns found"
+          echo "These should be in .gitignore and not committed"
+          exit 1
+        fi
+        
+        echo "✅ No sensitive file patterns detected"
+        
+    - name: Verify .gitignore exists
+      run: |
+        if [ ! -f .gitignore ]; then
+          echo "❌ Error: .gitignore file missing"
+          exit 1
+        fi
+        echo "✅ .gitignore file present"
+        
+    - name: Check for TODO or FIXME security notes
+      run: |
+        echo "🔍 Checking for security-related TODOs..."
+        
+        if grep -rn "TODO.*security\|FIXME.*security\|TODO.*confidential\|FIXME.*confidential" . --exclude-dir=.git --exclude-dir=node_modules | grep -i security; then
+          echo "⚠️ Warning: Security-related TODOs found"
+          echo "Please address these before committing"
+        fi
+        
+        echo "✅ Security check complete"
+
+  markdown-lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install markdownlint
+      run: npm install -g markdownlint-cli
+      
+    - name: Lint markdown files
+      run: |
+        markdownlint '**/*.md' --ignore node_modules || true
+        echo "✅ Markdown linting complete"
+
+  link-checker:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Check internal links
+      run: |
+        echo "🔍 Checking internal links in markdown files..."
+        
+        # Simple check for broken internal links
+        for file in $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*"); do
+          echo "Checking: $file"
+          # Extract markdown links and verify they exist
+          grep -oP '\[.*?\]\(\K[^)]+' "$file" | while read link; do
+            if [[ "$link" == http* ]]; then
+              continue  # Skip external links
+            fi
+            # Remove anchors
+            link_file="${link%%#*}"
+            if [ -n "$link_file" ] && [ ! -f "$(dirname $file)/$link_file" ] && [ ! -f "$link_file" ]; then
+              echo "⚠️ Potentially broken link in $file: $link"
+            fi
+          done
+        done
+        
+        echo "✅ Link check complete"
