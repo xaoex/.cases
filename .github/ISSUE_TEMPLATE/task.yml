@@ -1,0 +1,127 @@
+name: Task / Chore
+description: General task, maintenance, or chore that needs to be done
+title: "[Task]: "
+labels: ["type:task", "priority:medium"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Task / Chore
+        Use this template for general tasks, maintenance work, or chores that need tracking.
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: What needs to be done?
+      placeholder: Describe the task...
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of task is this?
+      options:
+        - Documentation Update
+        - Maintenance
+        - Repository Setup
+        - Configuration
+        - Cleanup
+        - Review
+        - Organization
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: What are the specific goals or objectives?
+      placeholder: |
+        - Objective 1
+        - Objective 2
+        - Objective 3
+    validations:
+      required: true
+      
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this task is complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgent is this task?
+      options:
+        - Low - Can wait
+        - Medium - Should be done soon
+        - High - Important, do soon
+        - Critical - Urgent, blocking other work
+      default: 1
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: size
+    attributes:
+      label: Estimated Size
+      description: How much work is involved?
+      options:
+        - Small - Less than 2 hours
+        - Medium - 2-8 hours
+        - Large - More than 8 hours
+      default: 0
+    validations:
+      required: true
+      
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Link to any related issues (use #issue-number)
+      placeholder: "Related to #123, #456"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Does this task depend on anything else being done first?
+      placeholder: "Depends on #789 being completed"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any other information, context, or instructions
+      placeholder: Additional information...
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following
+      options:
+        - label: I have clearly defined what needs to be done
+          required: true
+        - label: I have defined how to measure completion
+          required: true
+        - label: I have checked for duplicate issues
+          required: true

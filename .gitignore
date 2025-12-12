@@ -41,6 +41,33 @@ build/
 **/SEALED_*
 **/*_REDACTED_SOURCE.*
 
+# Sensitive case data
+*.confidential
+*.private  
+*_CONFIDENTIAL.*
+*_PRIVATE.*
+personal_data/
+client_data/
+sensitive/
+
+# Personal identifiers (DO NOT COMMIT)
+*SSN*
+*personnummer*
+*social_security*
+
+# Financial information (DO NOT COMMIT)
+*bank_account*
+*credit_card*
+*financial_records*
+
+# Medical records (DO NOT COMMIT - store securely offline)
+*medical_records*
+*health_data*
+
+# Attorney-client privileged (DO NOT COMMIT publicly)
+*privileged*
+*attorney_work_product*
+
 # Personal Notes (not for repo)
 **/personal-notes/
 **/scratch/

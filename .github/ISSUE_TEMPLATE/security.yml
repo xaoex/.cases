@@ -1,0 +1,128 @@
+name: Security Concern
+description: Report a security issue or concern (confidentially if needed)
+title: "[Security]: "
+labels: ["priority:critical", "security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Security Concern
+        
+        **⚠️ IMPORTANT: Do not include sensitive personal information in this issue.**
+        
+        If this is a critical security vulnerability that could expose sensitive data or compromise the repository, please contact the repository maintainers privately before creating a public issue.
+        
+        For general security improvements or non-critical concerns, please use this template.
+        
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: How severe is this security concern?
+      options:
+        - Low - General security improvement suggestion
+        - Medium - Potential security risk with low likelihood
+        - High - Significant security risk
+        - Critical - Active vulnerability exposing sensitive data
+      default: 0
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Security Category
+      description: What type of security concern is this?
+      options:
+        - Data Exposure Risk
+        - Access Control Issue
+        - Sensitive Data in Repository
+        - Workflow/Action Security
+        - Configuration Issue
+        - Third-Party Dependency Vulnerability
+        - Authentication/Authorization
+        - Encryption/Privacy
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Security Concern Description
+      description: Describe the security concern (without exposing sensitive details publicly)
+      placeholder: Describe the concern...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential Impact
+      description: What could happen if this security concern is not addressed?
+      placeholder: If not addressed, this could lead to...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: affected-areas
+    attributes:
+      label: Affected Areas
+      description: Which parts of the repository are affected?
+      placeholder: |
+        - Area 1
+        - Area 2
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce (if applicable)
+      description: If this is a vulnerability, how can it be reproduced?
+      placeholder: |
+        1. Step 1
+        2. Step 2
+        3. Observe vulnerability
+    validations:
+      required: false
+      
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Do you have suggestions for how to address this?
+      placeholder: This could be fixed by...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other relevant information (be careful not to expose sensitive data)
+      placeholder: Additional information...
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following
+      options:
+        - label: I have NOT included any sensitive personal information in this issue
+          required: true
+        - label: I have NOT included any passwords, keys, or credentials
+          required: true
+        - label: If this is critical, I have contacted maintainers privately first
+          required: true
+        - label: I understand this issue will be visible publicly
+          required: true
+          
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        **Private Security Disclosure**: For critical vulnerabilities that should not be publicly disclosed, please contact the repository maintainers directly via email or private message before creating this issue.
