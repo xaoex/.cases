@@ -481,5 +481,5 @@ Workflows can integrate with:
 
 ---
 
-**Last Updated:** 2024-12-12  
+**Last Updated:** 2025-12-12  
 **Status**: Workflows specifications complete, implementation in progress
