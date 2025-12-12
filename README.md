@@ -31,7 +31,7 @@ Document and manage legal issues in a structured, professional manner suitable f
 │   ├── timeline/                # Timeline documentation and practices
 │   └── legal-filings/           # Court documents and filings
 ├── wiki/                        # Comprehensive guides and reference materials
-├── Planning Documents/          # Project management and issue tracking
+├── planning-documents/          # Project management and issue tracking
 │   ├── MASTER_PLAN.md          # Strategic roadmap for 250+ issues
 │   ├── EXECUTIVE_SUMMARY.md    # Project overview and metrics
 │   ├── COMPREHENSIVE_ISSUES_TO_CREATE.md  # Issues #1-30

@@ -476,8 +476,8 @@ Workflows can integrate with:
 
 ### Related Wiki Pages
 - [Issue Management System](./05-issue-management.md)
-- [Security & Privacy](./11-security.md)
-- [Repository Structure](./20-case-organization.md)
+- [Security & Privacy](./11-security.md) *(to be created)*
+- [Case Organization](./20-case-organization.md) *(to be created)*
 
 ---
 

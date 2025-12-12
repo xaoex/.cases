@@ -141,21 +141,23 @@ Create CODEOWNERS file to automatically request reviews for sensitive areas.
 **Content**:
 ```
 # Case documentation requires legal review
-/docs/cases/ @legal-reviewer
-/docs/legal-filings/ @legal-reviewer
+/docs/cases/ @REPLACE-WITH-LEGAL-REVIEWER-USERNAME
+/docs/legal-filings/ @REPLACE-WITH-LEGAL-REVIEWER-USERNAME
 
 # Evidence handling requires verification
-/docs/evidence/ @evidence-manager
+/docs/evidence/ @REPLACE-WITH-EVIDENCE-MANAGER-USERNAME
 
 # Wiki content requires approval
-/wiki/ @documentation-team
+/wiki/ @REPLACE-WITH-DOCUMENTATION-TEAM-USERNAME
 
 # GitHub Actions require security review  
-/.github/workflows/ @security-team
+/.github/workflows/ @REPLACE-WITH-SECURITY-TEAM-USERNAME
 
 # Issue templates require approval
-/.github/ISSUE_TEMPLATE/ @repository-admin
+/.github/ISSUE_TEMPLATE/ @REPLACE-WITH-REPOSITORY-ADMIN-USERNAME
 ```
+
+**Note**: Replace placeholder usernames with actual GitHub usernames or team names (e.g., @username or @org/team-name) during implementation.
 
 **Acceptance Criteria**:
 - [ ] CODEOWNERS file created
