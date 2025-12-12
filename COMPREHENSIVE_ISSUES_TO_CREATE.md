@@ -157,7 +157,7 @@ Create CODEOWNERS file to automatically request reviews for sensitive areas.
 /.github/ISSUE_TEMPLATE/ @REPLACE-WITH-REPOSITORY-ADMIN-USERNAME
 ```
 
-**Note**: Replace placeholder usernames with actual GitHub usernames or team names (e.g., @username or @org/team-name) during implementation.
+**Note**: Replace placeholder usernames with actual GitHub usernames or team names (e.g., @username or @org/team-name) during implementation. **Security Reminder**: Verify that specified users have appropriate permissions and security clearance before granting CODEOWNERS access to sensitive areas.
 
 **Acceptance Criteria**:
 - [ ] CODEOWNERS file created
@@ -292,7 +292,7 @@ Document how to contribute to the repository safely and effectively.
 **Description**:
 Establish clear community standards for anyone contributing or accessing the repository.
 
-**Template**: Use Contributor Covenant or similar
+**Template**: Use Contributor Covenant v2.1 or GitHub's Community Code of Conduct template
 
 **Acceptance Criteria**:
 - [ ] CODE_OF_CONDUCT.md created
