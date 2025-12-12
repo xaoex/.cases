@@ -37,6 +37,11 @@ Welcome to the .cases documentation wiki. This wiki provides comprehensive guida
 - [How to Use This Repository](./01-how-to-use.md)
 - [Creating Your First Case](./02-first-case.md)
 - [Understanding Issue Templates](./03-issue-templates.md)
+- [Court Preparation](./04-court-preparation.md)
+
+### Repository Management
+- [Issue Management System](./05-issue-management.md) - Complete guide to 250+ issue framework
+- [GitHub Actions & Automation](./06-github-actions.md) - Automated workflows and processes
 
 ### Documentation Standards
 - [Formatting Guidelines](./10-formatting.md)
