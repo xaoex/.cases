@@ -4,6 +4,66 @@
 
 This directory contains comprehensive documentation for individual legal cases, organized to facilitate case preparation and court submission.
 
+## Active Cases
+
+This repository currently contains **42 cases** across multiple categories:
+
+### Banks (Cases 002-003)
+- **[Case 002: Danske Bank](case-002-danske-bank/)** - Account closure, data loss, money loss
+- **[Case 003: Nordea](case-003-nordea/)** - Money disappeared from account
+
+### Companies / Employment (Cases 004-011)
+- **[Case 004: Apple Inc.](case-004-apple/)** - Employment issues (linked to Case 001 Siri internship)
+- **[Case 005: Google](case-005-google/)** - Issues with Google
+- **[Case 006: Lifesum AB](case-006-lifesum/)** - Work injury, exhaustion syndrome (linked to Case 001)
+- **[Case 007: Microsoft](case-007-microsoft/)** - Issues with Microsoft
+- **[Case 008: Spotify](case-008-spotify/)** - Issues with Spotify
+- **[Case 009: Tictail/Shopify](case-009-tictail-shopify/)** - Termination, inadequate severance (linked to Case 001)
+- **[Case 010: Hedvig](case-010-hedvig/)** - Current employment
+- **[Case 011: Vizrt](case-011-vizrt/)** - Current employment
+
+### Crimes (Cases 012-018)
+- **[Case 012: Data Removal](case-012-data-removal/)** - Unauthorized data removal
+- **[Case 013: Data Theft](case-013-data-theft/)** - Theft of personal/professional data
+- **[Case 014: DDoS Attack](case-014-ddos/)** - Distributed denial of service
+- **[Case 015: Google Crimes](case-015-google-crimes/)** - Criminal issues with Google services
+- **[Case 016: Hacking](case-016-hack/)** - Unauthorized system/account access
+- **[Case 017: Identity Theft](case-017-identity-theft/)** - Identity stolen and misused
+- **[Case 018: Threats](case-018-threats/)** - Threats received
+
+### Insurance (Cases 019-037)
+- **[Case 019: Akademiker Försäkring](case-019-akademiker-forsakring/)** - Insurance claim issues
+- **[Case 020: Apple Insurance](case-020-apple-insurance/)** - Employment insurance (Case 004)
+- **[Case 021: Bliwa](case-021-bliwa/)** - Insurance claim issues
+- **[Case 022: Enklare](case-022-enklare/)** - Insurance claim issues
+- **[Case 023: Euro Accident - Tictail](case-023-euro-accident-tictail/)** - Work injury (Case 009)
+- **[Case 024: Euro Accident - Lifesum](case-024-euro-accident-lifesum/)** - Work injury (Case 006)
+- **[Case 025: Folksam](case-025-folksam/)** - Insurance claim issues
+- **[Case 026: Försäkringar Banklån](case-026-forsakringar-banklan/)** - Bank loan insurance
+- **[Case 027: Försäkringskassan](case-027-forsakringskassan/)** - Social insurance, disability benefits (major, linked to Case 001)
+- **[Case 028: If Insurance](case-028-if-insurance/)** - Insurance claim issues
+- **[Case 029: Kammarkollegiet](case-029-kammarkollegiet/)** - State agency insurance
+- **[Case 030: Kollektivavtal AFA](case-030-kollektivavtal-afa/)** - Collective agreement insurance
+- **[Case 031: Länsförsäkringar - Vizrt](case-031-lansforsakringar-vizrt/)** - Employment insurance (Case 011)
+- **[Case 032: SBAB](case-032-sbab/)** - Banking/insurance issues
+- **[Case 033: Skandia](case-033-skandia/)** - Insurance claim issues
+- **[Case 034: Söderberg & Partners](case-034-soderberg-partners/)** - Insurance broker (Case 006)
+- **[Case 035: Spotify Insurance](case-035-spotify-insurance/)** - Employment insurance (Case 008)
+- **[Case 036: Tre Kronor Försäkring](case-036-tre-kronor/)** - Insurance claim issues
+- **[Case 037: Trygg Hansa](case-037-trygg-hansa/)** - Insurance claim issues
+
+### Swedish State (Cases 038-041)
+- **[Case 038: Swedish Court System](case-038-swedish-court/)** - Judicial system issues
+- **[Case 039: Swedish Healthcare](case-039-swedish-healthcare/)** - 2010 ADHD denial, ongoing failures (major, primary case with Case 001)
+- **[Case 040: Kronofogden](case-040-kronofogden/)** - Enforcement authority issues
+- **[Case 041: Överförmyndarnämnden](case-041-overformyndarnamnden/)** - Guardianship board issues
+
+### US State / California (Case 042)
+- **[Case 042: California/US State](case-042-california-us-state/)** - US federal/state matters (possibly linked to Case 004)
+
+### Original Case (Case 001)
+- **[Case 001: Oktay Oak Bahceci](case-001-oktay-bahceci/)** - Comprehensive 15-year medical and employment case (PRIMARY CASE - many others link to this)
+
 ## Case File Structure
 
 Each case should have its own subdirectory with the following structure:
