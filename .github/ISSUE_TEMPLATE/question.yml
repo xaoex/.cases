@@ -1,0 +1,88 @@
+name: Question
+description: Ask a question about using the repository
+title: "[Question]: "
+labels: ["question", "priority:low"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Question
+        Have a question about how to use this repository? Ask here!
+        
+        **Note**: For legal advice, please consult with a qualified attorney. This repository is for organization only.
+        
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - Getting Started
+        - Issue Templates
+        - Case Documentation
+        - Evidence Management
+        - Timeline Creation
+        - Project Boards
+        - GitHub Actions
+        - Wiki Navigation
+        - File Organization
+        - Best Practices
+        - Technical Issue
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: How do I...?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide context about what you're trying to accomplish
+      placeholder: I'm trying to...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What Have You Tried?
+      description: Have you looked at the documentation? What have you tried so far?
+      placeholder: |
+        I've looked at:
+        - README.md
+        - Wiki pages
+        - Existing issues
+        
+        I tried...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other details that might help answer your question
+      placeholder: Additional information...
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues and wiki pages
+          required: true
+        - label: This is a question about using the repository (not requesting legal advice)
+          required: true
+        - label: I have provided enough context for someone to help me
+          required: false
