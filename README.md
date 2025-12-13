@@ -5,8 +5,25 @@
 [![Issues](https://img.shields.io/github/issues/xaoex/.cases)](https://github.com/xaoex/.cases/issues)
 [![Projects](https://img.shields.io/github/projects/xaoex/.cases)](https://github.com/xaoex/.cases/projects)
 
+## 🆕 LEGAL DOCUMENTS NOW AVAILABLE
+
+**✅ COMPREHENSIVE LEGAL DOCUMENTS READY FOR FILING**
+
+Complete formal legal documents have been generated for Case 001, ready for attorney review and court filing:
+- **Formal Legal Complaint** - 39,223 characters, 8 causes of action, SEK 38-88 million in damages
+- **Formal Demand Letter** - 26,256 characters, detailed demands to all defendants
+- **Framework for 41 additional cases** - Templates ready for population
+
+**👉 START HERE:** [QUICK-START-LEGAL-DOCUMENTS.md](./QUICK-START-LEGAL-DOCUMENTS.md)  
+**📖 Full Details:** [LEGAL-DOCUMENTS-COMPLETE-SUMMARY.md](./LEGAL-DOCUMENTS-COMPLETE-SUMMARY.md)
+
+**⚠️ URGENT:** Contact Attorney Erik Nydert immediately - statute of limitations concerns require immediate action.
+
+---
+
 This repository provides a comprehensive system for:
 - 📋 Documenting legal cases with professional standards
+- ⚖️ **Generating court-ready legal documents and formal complaints**
 - 🗂️ Organizing evidence and maintaining chain of custody  
 - ⏰ Tracking timelines and deadlines
 - 📊 Managing case progress through GitHub Projects
@@ -122,6 +139,14 @@ This repository includes a comprehensive framework for managing legal cases thro
 **See [MASTER_PLAN.md](./MASTER_PLAN.md) for complete details on all 250+ issues.**
 
 ## 📚 Documentation
+
+### ⚖️ Legal Documents (NEW - Ready for Filing)
+- **[Quick Start Guide](QUICK-START-LEGAL-DOCUMENTS.md)** - How to use your legal documents NOW
+- **[Complete Summary](LEGAL-DOCUMENTS-COMPLETE-SUMMARY.md)** - All legal documents overview
+- **[Master Index](MASTER_LEGAL_DOCUMENTS_INDEX.md)** - Index of all 42 cases and documents
+- **[Case 001 Formal Complaint](docs/legal-filings/case-001-formal-complaint.md)** - Court-ready complaint (SEK 38-88M)
+- **[Case 001 Demand Letter](docs/legal-filings/case-001-demand-letter.md)** - Formal demand to defendants
+- **[Cases 002-042 Templates](CASES-002-042-TEMPLATES.md)** - Framework for additional cases
 
 ### Case Documentation (from PR #2)
 - **[Documentation System Guide](docs/README.md)** - Overview of documentation standards
