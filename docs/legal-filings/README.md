@@ -4,6 +4,47 @@
 
 This directory contains all legal documents filed with courts or administrative bodies, as well as documents received from opposing parties.
 
+## Current Documents Available
+
+### Case 001 - Oktay Oak Bahceci Primary Case
+
+**CASE-001: Comprehensive Legal Documentation Ready for Filing**
+
+1. **Formal Legal Complaint** (`case-001-formal-complaint.md`)
+   - Complete complaint with 8 causes of action
+   - Comprehensive 15-year factual narrative
+   - Detailed damages assessment (SEK 38-88 million+)
+   - Ready for attorney review and filing
+   - 39,223 characters (comprehensive)
+
+2. **Formal Demand Letter** (`case-001-demand-letter.md`)
+   - Detailed demand to all defendants
+   - Specific monetary demands by party
+   - 30-day compliance deadline
+   - Settlement framework
+   - 26,256 characters (comprehensive)
+
+**Status:** DRAFT - Requires Attorney Erik Nydert review and finalization before filing
+
+**Next Steps:**
+- [ ] Attorney review and revision
+- [ ] Finalize specific defendant entities and addresses
+- [ ] Calculate precise damages with expert assistance
+- [ ] Compile all supporting documentation
+- [ ] Determine whether to send demand letter first or file immediately
+- [ ] File complaint or send demand letter
+
+### Cases 002-042 - Additional Cases
+
+**Documentation Available:**
+- Framework templates ready for each case
+- Standard complaint template
+- Standard demand letter template
+- Evidence collection checklists
+- Awaiting specific case details to populate templates
+
+See: `CASES-002-042-TEMPLATES.md` in repository root for complete framework.
+
 ## Organization
 
 ```
